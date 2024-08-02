@@ -1,0 +1,43 @@
+.container{
+    border: 2px solid black;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(192, 188, 188);
+    font-size: xx-large;
+}
+.display span{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(11, 11, 98);
+}
+.time{
+    text-align: center;
+    font-size: 50px;
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: rgb(183, 7, 7);
+    border-radius: 5px;
+    font-size: xx-large;
+    padding: 10px;
+}
+.display h2{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.time span{
+   font-size:100px;
+}
+button:hover{
+    background-color: darkgreen;
+    cursor:pointer;
+}
